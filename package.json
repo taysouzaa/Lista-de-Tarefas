@@ -1,0 +1,23 @@
+{
+  "name": "lista-de-tarefas",
+  "version": "1.0.0",
+  "description": "Uma lista interativa para organizar tarefas do dia a dia.",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2"
+  },
+  "homepage": ".",
+  "license": "MIT"
+}

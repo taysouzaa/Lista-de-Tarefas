@@ -1,85 +1,61 @@
-# 📋 Lista de Tarefas ( To Do List )
+# Lista de Tarefas (To-Do List)
 
-Uma aplicação web moderna para organizar suas tarefas do dia a dia, feita com React.
-
----
+Este projeto é uma aplicação de lista de tarefas que permite aos usuários organizar suas tarefas diárias de forma interativa.
 
 ## Funcionalidades
 
 - Adicionar, editar e remover tarefas
 - Marcar tarefas como concluídas
-- Limpar todas as tarefas
-- Definir prioridade (Baixa, Média, Alta) para cada tarefa
-- Visualizar data e hora de criação da tarefa
-- Filtros para visualizar todas, pendentes ou concluídas
-- Contador de tarefas pendentes e concluídas
-- Tema claro e escuro
-- Salva as tarefas no armazenamento local do navegador (localStorage)
-- Interface responsiva e estilizada
+- Salvar as tarefas no armazenamento local
+- Interface amigável
 
----
+## Estrutura do Projeto
 
-## Tecnologias Utilizadas
+```
+lista-de-tarefas
+├── src
+│   ├── components
+│   │   ├── TaskItem.tsx
+│   │   └── TaskList.tsx
+│   ├── App.tsx
+│   ├── index.tsx
+│   └── types
+│       └── index.ts
+├── public
+│   └── index.html
+├── package.json
+├── tsconfig.json
+└── README.md
+```
 
-- **Linguagem principal:** JavaScript (ES6+)
-- **Framework:** [ReactJS](https://react.dev/)
-- **Estilização:** CSS3 (customizado, responsivo e com tema escuro/claro)
-- **Gerenciamento de estado:** React Hooks (`useState`, `useEffect`)
-- **Armazenamento:** LocalStorage do navegador
-- **Ferramentas:** Node.js, npm (ou yarn)
+## Instalação
 
----
-
-## Estrutura dos arquivos principais
-
-- **src/App.js**  
-  Componente principal React. Contém toda a lógica da lista de tarefas, funções para adicionar, editar, remover, marcar como concluída, filtros, tema escuro/claro e salvar no localStorage. Também define o layout da tela.
-
-- **src/App.css**  
-  Arquivo de estilos. Responsável por todo o visual da aplicação: centralização, cores, botões, responsividade, tema escuro/claro e detalhes visuais.
-
-- **package.json**  
-  Arquivo de configuração do projeto. Lista as dependências (React, etc), scripts para rodar o projeto (`npm start`), e outras configurações.
-
----
-
-## Como rodar o projeto
-
-1. Instale as dependências:
-   ```bash
+1. Clone o repositório:
+   ```
+   git clone <URL_DO_REPOSITORIO>
+   ```
+2. Navegue até o diretório do projeto:
+   ```
+   cd lista-de-tarefas
+   ```
+3. Instale as dependências:
+   ```
    npm install
    ```
-2. Rode o projeto:
-   ```bash
-   npm start
-   ```
-3. Acesse [http://localhost:3000](http://localhost:3000) no navegador.
 
----
+## Uso
 
-## Como funciona
+Para iniciar a aplicação, execute o seguinte comando:
+```
+npm start
+```
 
-- As tarefas são salvas automaticamente no navegador (localStorage).
-- Você pode adicionar, editar, marcar como concluída ou remover tarefas.
-- O layout é centralizado, com título destacado e botões estilizados.
-- O contador mostra quantas tarefas estão pendentes e quantas já foram concluídas.
-- O tema pode ser alternado entre claro e escuro.
+A aplicação será aberta em `http://localhost:3000`.
 
----
+## Contribuição
 
-## Personalização
+Sinta-se à vontade para contribuir com melhorias ou correções. Faça um fork do repositório e envie um pull request com suas alterações.
 
-- Para mudar o visual, edite o arquivo `src/App.css`.
-- Para alterar a lógica ou adicionar novas funções, edite `src/App.js`.
+## Licença
 
----
-
-## Screenshots
-
-![Captura de tela 2025-06-30 111240](https://github.com/user-attachments/assets/589e9fec-f4da-49af-b7dc-d809857a3c0d)
-![Listadetarefasatualizadas pt1](https://github.com/user-attachments/assets/7fcf51a0-1f6f-450a-9e6f-3ee07e08f32d)
-
-
----
-
-Feito com 💙 usando ReactJS
+Este projeto está licenciado sob a MIT License. Veja o arquivo LICENSE para mais detalhes.
