@@ -1,4 +1,4 @@
-# 📋 Lista de Tarefas
+# 📋 Lista de Tarefas ( To Do List )
 
 Uma aplicação web moderna para organizar suas tarefas do dia a dia, feita com React.
 
