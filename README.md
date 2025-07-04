@@ -1,61 +1,90 @@
-# Lista de Tarefas (To-Do List)
 
-Este projeto é uma aplicação de lista de tarefas que permite aos usuários organizar suas tarefas diárias de forma interativa.
+## Lista de Tarefas (To-Do List)
+
+Este projeto é uma aplicação web desenvolvida com foco em produtividade pessoal.
+Permite aos usuários adicionar, editar, remover e marcar tarefas, com persistência local via `localStorage`.
+
+Desenvolvido com **React + TypeScript**, apresenta uma estrutura modular e interface simples e eficiente.
+
+---
 
 ## Funcionalidades
 
-- Adicionar, editar e remover tarefas
-- Marcar tarefas como concluídas
-- Salvar as tarefas no armazenamento local
-- Interface amigável
+* Adição e edição de tarefas
+* Marcação de tarefas como concluídas
+* Remoção de tarefas
+* Armazenamento automático no navegador (localStorage)
+* Interface leve e responsiva
+
+---
 
 ## Estrutura do Projeto
 
 ```
-lista-de-tarefas
-├── src
-│   ├── components
-│   │   ├── TaskItem.tsx
-│   │   └── TaskList.tsx
-│   ├── App.tsx
-│   ├── index.tsx
-│   └── types
-│       └── index.ts
-├── public
-│   └── index.html
-├── package.json
-├── tsconfig.json
-└── README.md
+lista-de-tarefas/
+├── src/
+│   ├── components/
+│   │   ├── TaskItem.tsx      # Componente individual de tarefa
+│   │   └── TaskList.tsx      # Lista de tarefas
+│   ├── types/
+│   │   └── index.ts          # Tipagens globais
+│   ├── App.tsx               # Componente principal da aplicação
+│   └── index.tsx             # Ponto de entrada do React
+├── public/
+│   └── index.html            # HTML base
+├── package.json              # Dependências e scripts npm
+├── tsconfig.json             # Configuração do TypeScript
+└── README.md                 # Documentação do projeto
 ```
 
-## Instalação
+---
 
-1. Clone o repositório:
-   ```
-   git clone <URL_DO_REPOSITORIO>
-   ```
-2. Navegue até o diretório do projeto:
-   ```
-   cd lista-de-tarefas
-   ```
-3. Instale as dependências:
-   ```
-   npm install
-   ```
+## Como Rodar Localmente
 
-## Uso
+> Pré-requisitos: [Node.js](https://nodejs.org) instalado
 
-Para iniciar a aplicação, execute o seguinte comando:
-```
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/lista-de-tarefas.git
+
+# Acesse o diretório
+cd lista-de-tarefas
+
+# Instale as dependências
+npm install
+
+# Inicie o projeto
 npm start
 ```
 
-A aplicação será aberta em `http://localhost:3000`.
+Acesse a aplicação no navegador:
+[http://localhost:3000](http://localhost:3000)
+
+---
+
+## Tecnologias Utilizadas
+
+* React
+* TypeScript
+* HTML e CSS
+* localStorage (armazenamento local)
+
+---
 
 ## Contribuição
 
-Sinta-se à vontade para contribuir com melhorias ou correções. Faça um fork do repositório e envie um pull request com suas alterações.
+Contribuições são bem-vindas!
+Você pode:
+
+1. Fazer um fork do repositório
+2. Criar uma branch com suas alterações
+3. Abrir um Pull Request
+
+---
 
 ## Licença
 
-Este projeto está licenciado sob a MIT License. Veja o arquivo LICENSE para mais detalhes.
+Este projeto está licenciado sob a **MIT License**.
+Consulte o arquivo `LICENSE` para mais informações.
+
+---
