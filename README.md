@@ -1,4 +1,3 @@
-```markdown
 # ✅ LISTA DE TAREFAS (TO-DO LIST)
 
 Organize sua rotina com praticidade e foco no que importa
@@ -33,8 +32,8 @@ Desenvolvido com **React + TypeScript**, possui estrutura modular e eficiente.
 
 ## 🧩 Estrutura do Projeto
 
-```
 
+```bash
 lista-de-tarefas/
 ├── src/
 │   ├── components/
@@ -49,7 +48,6 @@ lista-de-tarefas/
 ├── package.json              # Dependências e scripts npm
 ├── tsconfig.json             # Configuração do TypeScript
 └── README.md                 # Documentação do projeto
-
 ````
 
 ---
@@ -58,17 +56,24 @@ lista-de-tarefas/
 
 > **Pré-requisitos:** [Node.js](https://nodejs.org) instalado
 
-```bash
+
 # Clone o repositório
+```bash
 git clone https://github.com/seu-usuario/lista-de-tarefas.git
+````
 
 # Acesse o diretório
+```bash
 cd lista-de-tarefas
+````
 
 # Instale as dependências
+```bash
 npm install
+````
 
 # Inicie o projeto
+```bash
 npm start
 ````
 
