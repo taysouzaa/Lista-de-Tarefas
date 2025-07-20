@@ -106,5 +106,3 @@ Você pode:
 
 Este projeto está licenciado sob a **MIT License**.
 Consulte o arquivo `LICENSE` para mais detalhes.
-
-```
