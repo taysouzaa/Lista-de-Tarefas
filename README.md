@@ -1,26 +1,40 @@
+```markdown
+# ✅ LISTA DE TAREFAS (TO-DO LIST)
 
-## Lista de Tarefas (To-Do List)
+Organize sua rotina com praticidade e foco no que importa
 
-Este projeto é uma aplicação web desenvolvida com foco em produtividade pessoal.
-Permite aos usuários adicionar, editar, remover e marcar tarefas, com persistência local via `localStorage`.
+[![last commit](https://img.shields.io/github/last-commit/seu-usuario/lista-de-tarefas)](https://github.com/seu-usuario/lista-de-tarefas)
+[![React](https://img.shields.io/badge/built_with-React-61DAFB?logo=react)]()
+[![TypeScript](https://img.shields.io/badge/TypeScript-Compatible-blue?logo=typescript)]()
 
-Desenvolvido com **React + TypeScript**, apresenta uma estrutura modular e interface simples e eficiente.
-
----
-
-## Funcionalidades
-
-* Adição e edição de tarefas
-* Marcação de tarefas como concluídas
-* Remoção de tarefas
-* Armazenamento automático no navegador (localStorage)
-* Interface leve e responsiva
+Construído com foco em produtividade pessoal e experiência fluida de uso.
 
 ---
 
-## Estrutura do Projeto
+## 🧠 Visão Geral
+
+O **Lista de Tarefas** é uma aplicação web desenvolvida para ajudar usuários a organizarem suas atividades diárias.  
+Através de uma interface simples, é possível adicionar, editar, concluir e excluir tarefas — com armazenamento persistente via `localStorage`.
+
+Desenvolvido com **React + TypeScript**, possui estrutura modular e eficiente.
+
+---
+
+## ✨ Funcionalidades
+
+- ➕ Adicionar novas tarefas  
+- 📝 Editar tarefas existentes  
+- ✅ Marcar tarefas como concluídas  
+- 🗑️ Remover tarefas  
+- 💾 Armazenamento automático no navegador (localStorage)  
+- 💻 Interface leve, responsiva e acessível  
+
+---
+
+## 🧩 Estrutura do Projeto
 
 ```
+
 lista-de-tarefas/
 ├── src/
 │   ├── components/
@@ -35,13 +49,14 @@ lista-de-tarefas/
 ├── package.json              # Dependências e scripts npm
 ├── tsconfig.json             # Configuração do TypeScript
 └── README.md                 # Documentação do projeto
-```
+
+````
 
 ---
 
-## Como Rodar Localmente
+## ⚙️ Como Rodar Localmente
 
-> Pré-requisitos: [Node.js](https://nodejs.org) instalado
+> **Pré-requisitos:** [Node.js](https://nodejs.org) instalado
 
 ```bash
 # Clone o repositório
@@ -55,36 +70,36 @@ npm install
 
 # Inicie o projeto
 npm start
-```
+````
 
 Acesse a aplicação no navegador:
-[http://localhost:3000](http://localhost:3000)
+🔗 [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 * React
 * TypeScript
-* HTML e CSS
-* localStorage (armazenamento local)
+* HTML & CSS
+* localStorage
 
 ---
 
-## Contribuição
+## 🤝 Contribuição
 
 Contribuições são bem-vindas!
 Você pode:
 
 1. Fazer um fork do repositório
 2. Criar uma branch com suas alterações
-3. Abrir um Pull Request
+3. Abrir um Pull Request com sua sugestão ou melhoria
 
 ---
 
-## Licença
+## 📄 Licença
 
 Este projeto está licenciado sob a **MIT License**.
-Consulte o arquivo `LICENSE` para mais informações.
+Consulte o arquivo `LICENSE` para mais detalhes.
 
----
+```
